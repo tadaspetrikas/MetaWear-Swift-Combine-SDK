@@ -122,7 +122,7 @@ fileprivate func assertMatching<T>(_ input: Claim<T>) {
         case MBL_MW_DT_ID_INT32:                     assert(T.self == Int32.self)                        // 3
             // BYTE_ARRAY 4
         case MBL_MW_DT_ID_BATTERY_STATE:             assert(T.self == MblMwBatteryState.self)            // 5
-        case MBL_MW_DT_ID_TCS34725_ADC:              assert(T.self == MblMwTcs34725ColorAdc.self)        // 6
+        //case MBL_MW_DT_ID_TCS34725_ADC:              assert(T.self == MblMwTcs34725ColorAdc.self)        // 6
         case MBL_MW_DT_ID_EULER_ANGLE:               assert(T.self == MblMwEulerAngles.self)             // 7
         case MBL_MW_DT_ID_QUATERNION:                assert(T.self == MblMwQuaternion.self)              // 8
         case MBL_MW_DT_ID_CORRECTED_CARTESIAN_FLOAT: assert(T.self == MblMwCorrectedCartesianFloat.self) // 9
